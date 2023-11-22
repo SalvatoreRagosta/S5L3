@@ -1,0 +1,167 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (min-width:320px) {
+    #navigation {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #FBF7E3;
+        border-radius: 100px;
+        width: 20rem;
+        height: 20rem;
+    
+    }
+    
+    .nav-icon{
+        
+        position: relative;
+        top: 25px;
+        text-align: center;
+        width: 6rem;
+        height: 3rem;
+        background-color: #FFDF7F;
+        border-radius: 200px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color: #612406;
+    
+        
+    }
+    
+    .nav-icon-shop{
+        font-weight: bold;
+        position: relative;
+        bottom:5px;
+        text-align: center;
+        width: 10rem;
+        height: 5rem;
+        background-color: #FFDF7F;
+        border-radius: 200px;
+        text-decoration: none;
+    }
+    
+    #shop{
+        position: relative;
+        bottom: 23px;
+        font-size: 1.6em
+    }
+    
+    img{
+        position: relative;
+        top: 16px;
+        right: 9px;
+        width: 55px;
+    }
+    
+    h1{
+        color: #612406;
+        font-weight: bold;
+    }
+    
+    #prodotti{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .foto-prodotti{
+        width: 33rem;
+        padding-bottom: 170px;
+        background-color: #FEF7E2;
+        border-radius: 40px;
+    }
+    
+    main div p{
+        position: relative;
+        left: 25px;
+        bottom: 53rem;
+        font-size: 1.3em;
+        color: #612406;
+        font-weight: bold;
+    }
+    
+    #Italian{
+        position: relative;
+        left: 35px;
+        bottom: 150px;
+        font-size: 1em;
+        color: #612406;
+        font-weight: bold;
+    }
+    
+    #price{
+        position: relative;
+        left:22rem;
+        bottom: 13rem;
+        font-size: 1.2em;
+        color: #612406;
+        font-weight: bold;
+    }
+    
+    button{
+        border-radius: 200px;
+        background-color: #FFDF7F;
+        font-weight: bold;
+        padding: 9px;
+        padding-left: 35px;
+        padding-right: 35px;
+        color: #612406;
+        border-style: none;
+        position:relative;
+        bottom: 180px;
+        left: 190px;
+        width: 10rem;
+    
+        
+    }
+    
+    h2{
+        color: #612406;
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        left: 100px;
+    }
+    
+    article{
+        background-color: #FEF7E2;
+        padding-bottom: 50px;
+        color: #612406;
+        border-radius: 50px;
+        text-align: left;
+        width: 32em;
+    }
+    
+    article img{
+        width: 25em;
+        position: relative;
+        left: 55px;
+    
+    }
+    
+    article p{
+        margin: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 1.5em;
+    }
+    
+    article h3{
+        margin-bottom: 20px;
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+    
+}
+
+
+
+
+
